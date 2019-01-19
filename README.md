@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+  This repo. has simple routes protection, with Angular 7, if you change the authentication status to false,
+  you wouldn't be able to see the protected routes, 
+  or if you change the decode function role in auth service, you wouldn't be able to log in admin.
+  I've faced troubles dealing with Angular 7 guards , so i did this repo, hope some one finds it useful.
